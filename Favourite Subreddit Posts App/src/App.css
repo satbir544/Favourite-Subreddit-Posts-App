@@ -1,0 +1,25 @@
+.App {
+    margin: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+    background-color: rgb(44, 219, 161);
+    color: white;
+    margin-bottom: 10px;
+}
+
+.nav-links {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-links :Hover{
+    color: rgb(116, 116, 116);
+}
